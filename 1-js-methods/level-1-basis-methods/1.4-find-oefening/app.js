@@ -9,7 +9,7 @@ const gevondenGetal = getallen.find(getal => getal > 50);
 
 console.log('Eerste getal > 50:', gevondenGetal);
 
-// TODO: Zoek de index van het eerste getal groter dan 50
+// TODO: Zoek de index van het eerste getal groter dan 5
 const gevondenIndex = getallen.findIndex(getal => getal > 50);
 
 console.log('Index van eerste getal > 50:', gevondenIndex);
