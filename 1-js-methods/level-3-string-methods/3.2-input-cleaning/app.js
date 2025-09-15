@@ -6,7 +6,7 @@ function schoonInput(input) {
     return input.trim().toLowerCase();
 }
 
-// Test de functie
+// Test de functi
 const testInputs = ['  HALLO  ', '  Test 123  ', '\t  Spaties  \n'];
 testInputs.forEach(input => {
     console.log(`"${input}" wordt: "${schoonInput(input)}"`);

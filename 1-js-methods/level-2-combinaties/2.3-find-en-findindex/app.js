@@ -7,7 +7,7 @@ const kleuren = ['rood', 'blauw', 'groen', 'geel', 'paars', 'oranje'];
 console.log('Temperaturen:', temperaturen);
 console.log('Kleuren:', kleuren);
 
-// TODO: Zoek de eerste temperatuur boven 25 graden
+// TODO: Zoek de eerste temperatuur boven 25 grade
 const warmeTemperatuur = temperaturen.find(temperature => temperature > 25);
 console.log('Eerste warme temperatuur:', warmeTemperatuur);
 

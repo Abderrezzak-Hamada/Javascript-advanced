@@ -9,7 +9,7 @@ console.log('Namen:', namen);
 console.log('Leeftijden:', leeftijden);
 console.log('Steden:', steden);
 
-// Maak beschrijvingen met template literals
+// Maak beschrijvingen met template literal
 const beschrijvingen = namen.map((naam, index) => {
     return `${naam} is ${leeftijden[index]} jaar oud en woont in ${steden[index]}.`;
 });

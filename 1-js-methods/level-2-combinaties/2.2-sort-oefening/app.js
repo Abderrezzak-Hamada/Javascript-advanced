@@ -7,7 +7,7 @@ const steden = ['Amsterdam', 'Utrecht', 'Rotterdam', 'Den Haag', 'Eindhoven'];
 console.log('Originele scores:', scores);
 console.log('Originele steden:', steden);
 
-// TODO: Sorteer scores van laag naar hoog
+// TODO: Sorteer scores van laag naar hoo
 const gesorteerdeScores = scores.sort((a, b) => a - b);
 console.log('Scores laag naar hoog:', gesorteerdeScores);
 

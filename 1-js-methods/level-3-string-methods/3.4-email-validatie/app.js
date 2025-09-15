@@ -17,7 +17,7 @@ function valideerEmail(email) {
     return geldigEinde;
 }
 
-// Test de functie
+// Test de functi
 const testEmails = ['jan@test.com', 'marie@voorbeeld.nl', 'fout@test.be', 'fout email@test.com'];
 testEmails.forEach(email => {
     console.log(`${email}: ${valideerEmail(email)}`);

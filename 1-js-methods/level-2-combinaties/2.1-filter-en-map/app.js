@@ -7,7 +7,7 @@ const productnamen = ['laptop', 'muis', 'toetsenbord', 'monitor', 'webcam', 'kab
 console.log('Alle prijzen:', prijzen);
 console.log('Alle productnamen:', productnamen);
 
-// TODO: Filter prijzen onder de €100
+// TODO: Filter prijzen onder de €10
 const goedkopePrijzen = prijzen.filter(getal => getal < 100);
 console.log('Prijzen onder €100:', goedkopePrijzen);
 

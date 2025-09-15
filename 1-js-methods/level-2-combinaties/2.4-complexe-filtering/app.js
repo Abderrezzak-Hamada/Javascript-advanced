@@ -7,7 +7,7 @@ const woorden = ['appel', 'banaan', 'aardbei', 'peer', 'ananas', 'bosbes'];
 console.log('Alle getallen:', getallen);
 console.log('Alle woorden:', woorden);
 
-// TODO: Filter getallen die groter zijn dan 10 EN kleiner dan 20
+// TODO: Filter getallen die groter zijn dan 10 EN kleiner dan 2
 const middelsteGetallen = getallen.filter(getal => getal >10 && getal<20);
 console.log('Getallen tussen 10 en 20:', middelsteGetallen);
 
