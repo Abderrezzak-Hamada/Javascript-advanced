@@ -7,8 +7,8 @@ console.log('Beschikbare kleuren:', kleuren);
 const zoekKleur = prompt('Voer een kleur in:') || 'blauw';
 console.log('Gezochte kleur:', zoekKleur);
 
-// TODO: Check of de kleur in de array staa
-const gevonden =  kleuren.find(kleur => kleur === 'gevonden');
-  /* jouw code hier */
+// ✅ Gebruik includes om te checken of de kleur aanwezig is
+const gevonden = kleuren.includes(zoekKleur);
 
-  console.log('Kleur gevonden:', gevonden);
+console.log('Kleur gevonden:', gevonden);
+console.log('Verwacht resultaat (bijv. als "blauw" ingevoerd is): true');

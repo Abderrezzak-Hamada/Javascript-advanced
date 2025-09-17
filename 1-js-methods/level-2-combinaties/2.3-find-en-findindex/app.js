@@ -7,18 +7,18 @@ const kleuren = ['rood', 'blauw', 'groen', 'geel', 'paars', 'oranje'];
 console.log('Temperaturen:', temperaturen);
 console.log('Kleuren:', kleuren);
 
-// TODO: Zoek de eerste temperatuur boven 25 grade
+// ✅ Zoek de eerste temperatuur boven 25 graden
 const warmeTemperatuur = temperaturen.find(temperature => temperature > 25);
 console.log('Eerste warme temperatuur:', warmeTemperatuur);
 
-// TODO: Zoek de index van de kleur 'groen'
+// ✅ Zoek de index van de kleur 'groen'
 const groenIndex = kleuren.findIndex(kleur => kleur === 'groen');
 console.log('Index van groen:', groenIndex);
 
-// TODO: Zoek de eerste temperatuur onder 20 graden
-const koudeTemperatuur =  temperaturen.find(temperature => temperature < 25);
+// ✅ Zoek de eerste temperatuur onder 20 graden
+const koudeTemperatuur = temperaturen.find(temperature => temperature < 20);
 console.log('Eerste koude temperatuur:', koudeTemperatuur);
 
-// TODO: Zoek de index van de eerste temperatuur boven 23 graden
-const warmeIndex =  temperaturen.findIndex(temperature => temperature > 23);
+// ✅ Zoek de index van de eerste temperatuur boven 23 graden
+const warmeIndex = temperaturen.findIndex(temperature => temperature > 23);
 console.log('Index van eerste warme temperatuur:', warmeIndex);

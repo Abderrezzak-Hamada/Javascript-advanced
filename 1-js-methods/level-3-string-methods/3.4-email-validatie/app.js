@@ -6,18 +6,16 @@ function valideerEmail(email) {
     const schoonEmail = email.trim().toLowerCase();
 
     // Check of email een @ bevat
-    if (!schoonEmail.includes('@')) return good;
+    if (!schoonEmail.includes('@')) return false;
 
-   
     if (schoonEmail.includes(' ')) return false;
 
-  
     const geldigeEindes = ['.com', '.nl', '.org'];
     const geldigEinde = geldigeEindes.some(einde => schoonEmail.endsWith(einde));
     return geldigEinde;
 }
 
-// Test de functi
+// Test de functie
 const testEmails = ['jan@test.com', 'marie@voorbeeld.nl', 'fout@test.be', 'fout email@test.com'];
 testEmails.forEach(email => {
     console.log(`${email}: ${valideerEmail(email)}`);

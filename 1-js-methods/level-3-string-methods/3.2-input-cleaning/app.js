@@ -2,11 +2,11 @@
 console.log('🚀 Opdracht 3.2: Input Cleaning');
 
 function schoonInput(input) {
-    
+    // Verwijder spaties voor en achter, zet alles in kleine letters
     return input.trim().toLowerCase();
 }
 
-// Test de functi
+// Test de functie
 const testInputs = ['  HALLO  ', '  Test 123  ', '\t  Spaties  \n'];
 testInputs.forEach(input => {
     console.log(`"${input}" wordt: "${schoonInput(input)}"`);

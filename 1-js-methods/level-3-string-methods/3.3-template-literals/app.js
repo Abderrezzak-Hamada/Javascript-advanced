@@ -9,10 +9,10 @@ console.log('Namen:', namen);
 console.log('Leeftijden:', leeftijden);
 console.log('Steden:', steden);
 
-// Maak beschrijvingen met template literal
-const beschrijvingen = namen.map((naam, index) => {
-    return `${naam} is ${leeftijden[index]} jaar oud en woont in ${steden[index]}.`;
-});
+// TODO: Maak beschrijvingen met template literal
+const beschrijvingen = namen.map((naam, index) => 
+    `${naam} is ${leeftijden[index]} jaar oud en woont in ${steden[index]}.`
+);
 
 // Print de beschrijvingen
 beschrijvingen.forEach(beschrijving => {
