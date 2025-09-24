@@ -1,16 +1,17 @@
-// Maak een boek object waar je allemaal gegevens van een boek in kunt opslaan en tonen op het scherm.
+const book = {
+  title: "Mein Kampf",
+  author: "Adolf Hitler",
+  publisher: "Adolf Hitler",
+  year: 1925,
+  sold: 250000000,
+  price: "2.99 euros"
+};
 
-// Het object moet de volgende properties bevatten:
+const output = document.querySelector(".output");
 
-//     Titel: de titel van het boek (string)
-//     Auteur: de auteur van het boek (string)
-//     Uitgeverij: de uitgeverij van het boek (string)
-//     Jaar: het jaar van publicatie van het boek (number)
-//     Verkocht: aantal verkochten exemplaren (number)
-//     Prijs: prijs van het boek (string)
-
-// Toon elke property op het scherm door het in een p-tag te plaatsen. Hiervoor maak je in je HTML een div-tag aan met de class 'output'.
-
-// In de theorie staat uitgelegd hoe je dit moet doen.
-
-// Let op: in de code conventions staat dat je de code in het Engels moet schrijven!
+for (let property in book) {
+  const p = document.createElement("p");
+  p.textContent = property + ": " + book[property];
+  output.appendChild(p);
+  console.log
+}
