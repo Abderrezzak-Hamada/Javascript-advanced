@@ -1,0 +1,51 @@
+/* Container grid */
+#cosmetics-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Elke cosmetic card */
+.person {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* Hover effect */
+.person:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.5);
+}
+
+/* Image styling */
+.person img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Text container inside card */
+.person div {
+  padding: 10px;
+  color: #fff;
+}
+
+/* Title */
+.person h4 {
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+/* Description */
+.person p {
+  font-size: 14px;
+  color: #ccc;
+}

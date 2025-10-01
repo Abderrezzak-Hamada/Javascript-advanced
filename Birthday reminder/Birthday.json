@@ -1,0 +1,28 @@
+[
+ 
+  {
+    "name": "Liam",
+    "age": 30,
+    "image": "https://i.pravatar.cc/100?img=6"
+  },
+  {
+    "name": "Sophie",
+    "age": 27,
+    "image": "https://commons.wikimedia.org/wiki/File:Anderson_Sophie_Portrait_Of_Young_Girl.jpg"
+  },
+  {
+    "name": "Noah",
+    "age": 35,
+    "image": "https://i.pravatar.cc/100?img=4"
+  },
+  {
+    "name": "Olivia",
+    "age": 29,
+    "image": "https://i.pravatar.cc/100?img=5"
+  },
+  {
+    "name": "Lucas",
+    "age": 32,
+    "image": "https://i.pravatar.cc/100?img=6"
+  }
+]

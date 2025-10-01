@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Birthday Reminder</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f3f3f3;
+      text-align: center;
+      padding: 20px;
+    }
+    .container {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 400px;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .person {
+      display: flex;
+      align-items: center;
+      margin: 10px 0;
+      gap: 10px;
+    }
+    .person img {
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+    }
+    button {
+      background: #ff4d4d;
+      border: none;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #e60000;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2><span id="count">0</span> Birthdays Today</h2>
+    <div class="list"></div>
+    <button id="clear">Clear All</button>
+  </div>
+  <script src="Birthday.js"></script>
+</body>
+</html>
